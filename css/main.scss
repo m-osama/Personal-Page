@@ -46,8 +46,11 @@ body {
 .wrapper {
 	display:grid;
 	grid-template-columns: 1fr; 
-	grid-gap: 5em;
+    grid-gap: 5em;
+    margin: 0;
+    padding: 0;
 }
+
 
 .social {
     ul{
@@ -78,6 +81,13 @@ body {
     position: absolute;
     right: 24px;
     top: -2rem;
+    color: #485563;
+}
+.logo2{
+    width: 5rem;
+    position: absolute;
+    right: 24px;
+    top: -3rem;
     color: #485563;
 }
 
