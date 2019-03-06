@@ -2,7 +2,7 @@
 body {
   font-family: 'Ubuntu', sans-serif;
   margin: 0;
-  padding: 2rem;
+  padding: 3rem;
   background-image: -webkit-gradient(linear, left top, right bottom, from(#D4F9FE), to(#B4B0BE));
   background-image: linear-gradient(to bottom right, #D4F9FE, #B4B0BE);
   width: 100%;
