@@ -1,0 +1,129 @@
+@import url("https://fonts.googleapis.com/css?family=Ubuntu");
+body {
+  font-family: 'Ubuntu', sans-serif;
+  margin: 0;
+  padding: 2rem;
+  background-image: -webkit-gradient(linear, left top, right bottom, from(#D4F9FE), to(#B4B0BE));
+  background-image: linear-gradient(to bottom right, #D4F9FE, #B4B0BE);
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+}
+
+body a {
+  text-decoration: none;
+}
+
+body h1 {
+  font-size: 2rem;
+  margin: 1rem auto 0 auto;
+  padding: 10rem auto;
+}
+
+body .card {
+  border-radius: 10px;
+}
+
+body .card .card-image {
+  border-radius: 10px;
+}
+
+body .card .card-image img {
+  border-radius: 10px;
+}
+
+.space {
+  margin: 2rem;
+}
+
+.space2 {
+  margin: 3rem;
+}
+
+.topspace {
+  margin: 6rem;
+}
+
+.wrapper {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr;
+      grid-template-columns: 1fr;
+  grid-gap: 5em;
+}
+
+.social i {
+  margin-right: 1rem;
+}
+
+.social li {
+  display: inline-block;
+  margin-right: .5rem;
+}
+
+.social a {
+  text-decoration: none;
+  color: #fff;
+}
+
+#socialcard {
+  background-image: -webkit-gradient(linear, left top, right bottom, from(#485563), to(#29323C));
+  background-image: linear-gradient(to bottom right, #485563, #29323C);
+  background-color: #29323C;
+}
+
+#socialcard ul {
+  text-align: center;
+  margin-left: 1rem;
+}
+
+.logo {
+  width: 5rem;
+  position: absolute;
+  right: 24px;
+  top: -2rem;
+  color: #485563;
+}
+
+/* Extra small devices (phones, 600px and down) */
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  body {
+    height: 100%;
+    width: 100%;
+  }
+  .wrapper {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+    grid-gap: 5em;
+  }
+}
+
+.space {
+  margin: 2rem;
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  body {
+    height: calc(100vh - 0rem);
+    width: 100%;
+  }
+  .wrapper {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 5em;
+  }
+}
+
+.space {
+  margin: 2rem;
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+/*# sourceMappingURL=main.css.map */
